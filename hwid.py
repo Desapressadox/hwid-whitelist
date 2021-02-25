@@ -4,7 +4,7 @@ import time
 import subprocess
 import urllib3
 
-urllib3.disable_warnings() # desabilita o log dos requests
+urllib3.disable_warnings() # desabilita o log do request
 
 hwid = str(subprocess.check_output('wmic csproduct get uuid')).split('\\r\\n')[1].strip('\\r').strip() # pega o hwid
 request = requests.get('https://pastebin.com/raw/LINK', verify=False) # entra no link onde armazena os hwid's
