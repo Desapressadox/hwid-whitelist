@@ -21,3 +21,6 @@ else: # checa se o hwid é inválido
    print("HWID não autorizado")
    time.sleep(2.4)
    quit()
+
+if __name__ == ‘__main__’:
+    main()
