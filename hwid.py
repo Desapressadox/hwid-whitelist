@@ -22,5 +22,5 @@ else: # checa se o hwid é inválido
    time.sleep(2.4)
    quit()
 
-if __name__ == ‘__main__’:
-    main()
+if __name__ == '__main__':
+    menu()
